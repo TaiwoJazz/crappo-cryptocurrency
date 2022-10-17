@@ -1,5 +1,5 @@
 import React from "react";
-import brandLogo from "../../img/Logo.svg"
+import brandLogo from "../../assets/Logo.svg"
 
 function NavLogo() {
   let url="#";

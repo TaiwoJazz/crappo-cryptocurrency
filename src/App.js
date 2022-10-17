@@ -1,17 +1,21 @@
-import React from "react";
-import NavBar from "./component/navbar/NavBar"
-import Hero from "./component/Hero"
-import WhyCrappo from "./component/whycrappo/WhyCrappo";
+import React from 'react';
+import NavBar from './component/Navbar/NavBar';
+import Hero from './component/Hero/Hero';
+import WhyCrappo from './component/WhyCrappo/WhyCrappo';
+import Earn from './component/SectionOne/Earn';
+import Cryptocurrency from './component/SectionTwo/Cryptocurrency';
 
 function App() {
   return (
-    <>
-    <main>
+    <React.Fragment>
       <NavBar />
-      <Hero />
-      <WhyCrappo />
-    </main>
-    </>
+      <main className='font-rubik'>
+        <Hero />
+        <WhyCrappo />
+        <Earn />
+        <Cryptocurrency />
+      </main>
+    </React.Fragment>
   );
 }
 

@@ -6,7 +6,7 @@ import Anchor from '../UI/Anchor';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import Divider from '../../assets/Divider.svg';
 
-function NavBar() {
+const NavBar = () => {
   const [active, setActive] = useState(false);
 
   const showMenu = () => {

@@ -5,7 +5,7 @@ import illustration from '../../assets/Illustration.svg';
 import backgroundDesign from '../../assets/design1.svg';
 // import design2 from '../img/design2.svg';
 
-function Hero() {
+const Hero = () => {
   return (
     <div className='bg-brandPrimaryColor'>
       <div className='flex flex-col lg:flex-row items-center 2xl:justify-center lg:align-baseline text-center lg:text-left px-6 lg:pb-20 font-rubik pt-32 md:pt-60 2xl:gap-12 realtive md:w-[40rem] lg:w-[60rem] xl:w-[75rem] 2xl:w-[95rem] mx-auto'>

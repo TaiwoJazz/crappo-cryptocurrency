@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from './component/Navbar/NavBar';
+import NavBar from './component/NavBar/NavBar';
 import Hero from './component/Hero/Hero';
 import WhyCrappo from './component/WhyCrappo/WhyCrappo';
 import Earn from './component/SectionOne/Earn';

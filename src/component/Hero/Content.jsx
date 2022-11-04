@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Anchor from '../UI/Anchor';
+import Button from '../UI/Button';
 import arrow from '../../assets/Vector.svg';
 
 const Content = () => {
@@ -22,8 +22,8 @@ const Content = () => {
         Buy and sell cryptocurrencies, trusted by 10M wallets with over $30
         billion in transactions.
       </p>
-      <Anchor
-        href='https://'
+      <Button
+        href='/'
         extraClass='sm:pl-2 pl-6 lg:pl-6 py-4 md:mt-14 mt-8 2xl:mb-32 w-44'
       >
         Try for FREE
@@ -32,7 +32,7 @@ const Content = () => {
           src={arrow}
           alt=''
         />
-      </Anchor>
+      </Button>
     </div>
   );
 };

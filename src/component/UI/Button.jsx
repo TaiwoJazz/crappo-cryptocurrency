@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Anchor = props => {
+const Button = props => {
   const extraClass = props.extraClass;
   let classNames;
 
@@ -11,4 +11,4 @@ const Anchor = props => {
   return <a href={props.href} className={classNames}>{props.children}</a>
 };
 
-export default Anchor
+export default Button

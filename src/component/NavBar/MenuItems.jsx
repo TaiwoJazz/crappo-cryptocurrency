@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Anchor from '../UI/Anchor';
+import Button from '../UI/Button';
 import CloseIcon from '@mui/icons-material/Close';
 import Divider from '../../assets/Divider.svg';
 
@@ -36,9 +36,9 @@ function MenuItems({ showMenu, active }) {
             Login
           </a>
           <img className='px-6' src={Divider} alt='' />
-          <Anchor href='https://#' className='py-2.5 px-5'>
+          <Button href='https://#' className='py-2.5 px-5'>
             Register
-          </Anchor>
+          </Button>
         </div>
       </div>
     </div>

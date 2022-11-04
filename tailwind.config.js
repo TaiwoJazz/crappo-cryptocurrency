@@ -5,11 +5,7 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   mode: 'jit',
   theme: {
-    fluidType: {
-      settings: {
-        fontSizeMin: 0.75 // 1.125rem === 18px
-      }
-    },
+    
     extend: {
       screens: {
         sm: '320px',

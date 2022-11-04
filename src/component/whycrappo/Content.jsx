@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Anchor from '../UI/Anchor';
+import Button from '../UI/Button';
 import illustration from '../../assets/Illustrations.svg';
 
 function WhyCrappoContent() {
@@ -11,16 +11,16 @@ function WhyCrappoContent() {
         className='flex flex-col items-center lg:items-start text-center lg:text-left'
         data-aos='fade-left'
       >
-        <strong className=' text-white text-3xl font-extrabold xl:leading-normal xl:w-[29rem]'>
+        <strong className=' text-white text-3xl font-extrabold xl:leading-normal max-w-xl'>
           Why you should choose CRAPPO
         </strong>
         <p className='text-textLight font-extralight text-md leading-relaxed 2xl:leading-relaxed mt-6 mb-8 max-w-2xl xl:max-w-sm 2xl:max-w-lg'>
           Experience the next generation cryptocurrency platform. No financial
           borders, extra fees, and fake reviews.
         </p>
-        <Anchor href='https://facebook.com' extraClass='px-6 w-fit'>
+        <Button href='/' extraClass='px-6 w-fit'>
           Learn More
-        </Anchor>
+        </Button>
       </div>
     </div>
   );

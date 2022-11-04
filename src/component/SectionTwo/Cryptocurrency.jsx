@@ -3,7 +3,10 @@ import arrow from '../../assets/arrow.svg';
 import itemsArray from './ItemArray';
 
 const Cryptocurrency = () => {
-  const [items, setItems] = useState({ activeItems: itemsArray[0], itemsArray });
+  const [items, setItems] = useState({
+    activeItems: itemsArray[0],
+    itemsArray
+  });
 
   const handleToggle = index => {
     setItems({ ...items, activeItems: items.itemsArray[index] });
@@ -55,7 +58,7 @@ const Cryptocurrency = () => {
   };
 
   return (
-    <div className='mb-24 text-center md:w-[40rem] lg:w-[60rem] xl:w-[75rem] 2xl:w-[95rem] mx-auto px-6 lg:px-0'>
+    <section className='mb-24 text-center md:w-[40rem] lg:w-[60rem] xl:w-[75rem] 2xl:w-[95rem] mx-auto px-6 lg:px-0'>
       <h2 className='text-3xl font-bold max-w-3xl mx-auto mb-16 xl:leading-relaxed'>
         Trade securely and market the high growth cryptocurrencies.
       </h2>
@@ -79,7 +82,7 @@ const Cryptocurrency = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

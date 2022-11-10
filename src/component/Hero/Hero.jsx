@@ -1,9 +1,8 @@
 import React from 'react';
-
 import Content from './Content';
 import illustration from '../../assets/Illustration.svg';
 import backgroundDesign from '../../assets/design1.svg';
-// import design2 from '../img/design2.svg';
+
 
 const Hero = () => {
   return (
@@ -16,7 +15,6 @@ const Hero = () => {
           alt=''
         />
         <img className='absolute -bottom-10' src={backgroundDesign} alt='' />
-        {/* <img className="absolute top-80 -right-40 overscroll-x-none" src={design2} alt="" /> */}
       </div>
     </div>
   );

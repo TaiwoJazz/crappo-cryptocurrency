@@ -39,7 +39,7 @@ const Footer = () => {
             <h2 className='text-xl max-w-sm font-medium leading-relaxed mb-12'>
               We accept following payment systems
             </h2>
-            <div className='flex justify-center lg:justify-start gap-6 cursor-pointer'>
+            <div className='flex justify-center lg:justify-start flex-wrap gap-6 cursor-pointer'>
               <img src={visa} alt='visa' />
               <img src={mastercard} alt='mastercard' />
               <img src={bitcoin} alt='bitcoin' />
